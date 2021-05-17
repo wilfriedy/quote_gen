@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <script src="./scipt.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./scipt.js"></script>
     <title>Quote generator</title>
 </head>
 <body>
+    <h2 class="center">Get quotes </a></h2>
+    <!-- <p class="by"> by : <a href="#">Wilfred akpe</p> -->
     <div class="quote-box">
-        <div class="quote">
-            <h3 class="quote-text">"This is the word we live in"</h3>
+        <div class="inner-box">
+            <div class="quote">
+            <q class="quote-text"></q>
+            <br>
+            - <i class="author"></i>
         </div>
         <div class="quote-actions">
             <i class="fab fa-twitter"></i>
             <button class="more">Load more</button>
         </div>
+        </div>
+        <div class="loader"></div>
     </div>
 </body>
+
 </html>

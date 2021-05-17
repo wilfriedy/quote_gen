@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Goblin One", cursive;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.quote-box {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.quote-actions {
+  width: 14rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #1da1f2;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.fa-twitter {
+  font-size: 30px;
+  color: #1da1f2;
+}
+
+.more,
+.fa-twitter {
+  cursor: pointer;
+}
+
+.more {
+  border-radius: 5px;
+  padding: 3px 5px;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.author {
+  color: rgb(132, 0, 255);
+}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .quote-box {
+   font-size: 14px;
+   width: 80%;
+   top: 30%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  }
+}
