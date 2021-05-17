@@ -1,7 +1,4 @@
 
-// if (document.readyState == 'ready') {
-//     window.addEventListener('DOMContentLoaded', ready)
-// } else {ready()}
 let quoteText = document.querySelector(".quote-text");
 let authorQuote = document.querySelector('.author')
 let quote = document.querySelector('.inner-box')
